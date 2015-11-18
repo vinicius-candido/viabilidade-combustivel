@@ -5,17 +5,25 @@
   <artifactId>viabilidadecombustivel</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>viabilidadecombustivel Maven Webapp</name>
+  <name>Viabilidade Combustivel</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+  <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+    <scope>provided</scope>
     </dependency>
   </dependencies>
+  
   <build>
     <finalName>viabilidadecombustivel</finalName>
   </build>
+  
+  <properties>
+    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+  </properties>
+  
 </project>
