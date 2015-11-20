@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div id="fullscreen_bg" class="fullscreen_bg">
+	<div id="fullscreen_bg" class="fullscreen_bg"></div>
 	<div class="container">
 		<form class="form-signin">
 			<h1 class="form-signin-heading text-muted">Saiba qual é melhor, etanol ou gasolina?</h1>
